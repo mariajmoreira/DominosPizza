@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@600;700;800&display=swap');
+
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(219,219,219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: -250px;
+    
+  }
+  
+  .socialMedia svg {
+    color: rgb(0,100, 145);
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    position: relative;
+    left: -350px;
+    bottom: -150px;
+    width:12%;
+  }
+
+
+  
+  .footer p {
+    color: rgb(0,100, 145);
+    position: relative;
+    left: -50px;
+    bottom: 30px;
+    font-family: 'Alumni Sans', sans-serif;
+  }
+
+.footer .descarregar{
+    position: relative;
+    left:400px;
+    bottom: -100px;
+}
+
+  .footer .descarregar .appstore{
+    color: rgb(0,100, 145);
+    position: relative;
+    left: 100px;
+    bottom: 130px;
+    width: 9%;
+  }
+
+  .footer .descarregar .googleplay{
+    color: rgb(0,100, 145);
+    position: relative;
+    left: 117px;
+    bottom: 122px;
+    width: 10%;
+  }
+
+  .footer .descarregar .appgallery{
+    color: rgb(0,100, 145);
+    position: relative;
+    left: 95px;
+    bottom: 77px;
+    width: 15%;
+  }
+
+  .footer .descarregar .cocacola{
+    color: rgb(0,100, 145);
+    position: relative;
+    left: 95px;
+    bottom: 105px;
+    width: 10%;
+  }
+
+  .footer h1{
+    color: rgb(0,100,145);
+    position: relative;
+    left: 0px;
+    bottom: 200px;
+    font-size: 125%;
+    font-family: 'Alumni Sans', sans-serif;
+  }

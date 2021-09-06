@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@600;700;800&display=swap');
+
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 100, 145);
+    display: flex;
+    flex-direction: row;
+    transition: all .7s ease-in;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  .scrolled{
+    z-index:9 ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 100, 145);
+  }
+  
+  .navbar .leftSide {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+  }
+  
+  
+  .navbar .leftSide img {
+    width: 200px;
+    position: relative;
+    bottom: 10px;
+  }
+
+
+/*
+.logo{
+    flex: 10%;
+    background-image: url(../assets/dominosLogo.png);
+    display:block;
+    width: 100px;
+}
+*/
+  
+  
+  .navbar .rightSide{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+  }
+
+  .navbar .rightSide .login{
+    flex: 3%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    padding: 10px;
+  }
+
+  .navbar .rightSide .login .user{
+    position: relative;
+    align-content: center;
+    left: 40px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: bolder;
+  }
+
+  .navbar .rightSide .login .userlink img{
+    width: 50px;
+    position: relative;
+    left: 50px;
+  }
+  
+
+  .navbar .rightSide .carrinho {
+    flex: 3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .navbar .rightSide .carrinho a{
+    position: relative;
+    align-content: center;
+    left: -25px;
+    bottom: -25px;
+    font-family: 'Alumni Sans', sans-serif;
+  }
+
+  .navbar .rightSide .carrinho .linkcarrinho img{
+      position: relative;
+    left: 95px;
+    bottom: 30px;
+    width: 50px;
+  }
+
+  .navbar a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Alumni Sans', sans-serif;
+  }
+  
+  .navbar .rightSide button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar .rightSide svg {
+    font-size: 40px;
+  }
+  
+  .navbar #open {
+    padding-left: 0px;
+  }
+  .navbar #open img {
+    display: none;
+  }
+  
+  .navbar #close img {
+    display: inherit;
+  }
+  
+  .navbar #open .hiddenLinks {
+    display: inherit;
+    margin-left: 30px;
+  }
+  
+  .navbar #close .hiddenLinks {
+    display: none;
+  }
+  
+  .navbar #open a {
+    width: 70px;
+    margin: 5px;
+  }
+  @media only screen and (max-width: 900px) {
+    .navbar .rightSide a {
+      width: 70px;
+    }
+    .navbar .leftSide {
+      padding-left: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar .rightSide a {
+      display: none;
+    }
+  
+    .navbar .rightSide {
+      justify-content: flex-end;
+      padding-right: 50px;
+    }
+  
+    .navbar .rightSide button {
+      display: inherit;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .navbar .rightSide button {
+      display: none;
+    }
+  
+    .hiddenLinks {
+      display: none;
+    }
+  }

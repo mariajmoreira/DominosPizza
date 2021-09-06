@@ -1,0 +1,205 @@
+.home {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Alumni Sans', sans-serif;
+  }
+
+  hr {
+    margin: 40px 0;
+    z-index: -2;
+  }
+
+  .hr3 {
+    border: 0;
+    height: 2px;
+    width: 150%;
+    background-image: linear-gradient(to right, transparent, rgb(0, 0, 0), transparent);  
+    z-index: -2;
+    position: relative;
+    bottom: 345px;
+    left: -250px;    
+  }
+  
+  .comecarPedido {
+    width: 950px;
+    height: 100px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 200px;
+    left: 180px;
+    z-index: -6;
+    background-color:rgb(255, 255, 255);
+  }
+  
+
+  .comecarPedido h1 {
+    flex:20%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    left: 50px;
+    height: 60px;
+    color: rgb(0, 100, 145);
+    bottom: 10px;
+    position: relative;
+    z-index: 9;
+  }
+  
+  .comecarPedido p {
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 185px;
+    left: 600px;
+    color: rgb(0, 100, 145);
+    z-index: 9;
+  }
+  
+  .comecarPedido .button1 {
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #ff0000;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 15px;
+    left: 350px;
+    bottom: 100px;
+    position: relative;
+    z-index: 9;
+  }
+  
+
+  .comecarPedido .button2 {
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #ff0000;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 15px;
+    left: 700px;
+    bottom: 278px;
+    position: relative;
+    z-index: 9;
+  }
+
+  .comecarPedido button:hover {
+    background-color: #a80a0a;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    font-size: 17px;
+  }
+
+
+.fotos{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Alumni Sans', sans-serif;
+    position: relative;
+    bottom: 150px;
+    left: 100px;
+    z-index: -2;
+}
+  
+  .fotos .foto1{
+    display: flex;
+    margin-left: 50px;
+    position: relative;
+    bottom: -500px;
+    left: 90px;
+  }
+
+  .fotos .foto2{
+    display: flex;
+    margin-left: 50px;
+    position: relative;
+    bottom: 20px;
+    left: 800px;
+}
+
+.fotos .foto3{
+    display: flex;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+    left: 800px;
+}
+
+.fotos .foto4{
+    display: flex;
+    margin-left: 50px;
+    position: relative;
+    bottom: -2px;
+    left: 90px;
+}
+
+
+
+
+
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+    .comecarPedido h1,
+    .comecarPedido p {
+    }
+  
+    .comecarPedido{
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #121619;
+      color: white;
+    }
+  
+    .comecarPedido h1 {
+      font-size: 40px;
+      height: 30px;
+      color: white;
+    }
+  
+    .comecarPedido p {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .comecarPedido button {
+      background-color: white;
+      color: #121619;
+      margin-bottom: 30px;
+    }
+  
+    .comecarPedido button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+  }
